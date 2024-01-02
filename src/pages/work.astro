@@ -1,0 +1,39 @@
+---
+import { getCollection } from "astro:content";
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import PortfolioPreview from "../components/PortfolioPreview.astro";
+import Hero from "../components/Hero.astro";
+import Grid from "../components/Grid.astro";
+
+const projects = (await getCollection("work")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<BaseLayout
+  title="Mi trabajo | Félix Pacheco Lobos"
+  description="Mira los proyectos recientes de Félix Pacheco Lobos"
+>
+  <div class="stack gap-20">
+    <main class="wrapper stack gap-8">
+      <Hero
+        title="Mi trabajo"
+        tagline="Mira mis proyectos para darte una idea de mi experiencia."
+        align="start"
+      />
+      <Grid variant="offset">
+        {
+          projects.map((project) => (
+            <li>
+              <PortfolioPreview project={project} />
+            </li>
+          ))
+        }
+      </Grid>
+    </main>
+    <ContactCTA />
+  </div>
+</BaseLayout>

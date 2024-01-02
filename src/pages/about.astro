@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+  title="Acerca de Mí | Félix Pacheco Lobos"
+  description="Acerca de Félix Pacheco Lobos"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="Acerca de Mí"
+        tagline="Gracias por visitar mi pagina. Lee un poco sobre mí."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpg"
+          alt="Jeanine White at work with a colleague"
+        />
+      </Hero>
+
+      <section>
+        <h2 class="section-title">Acerca de Mí</h2>
+        <div class="content">
+          <p>
+            Egresado recientemente de 4Geeks Academy como Desarrollador
+            Full-Stack donde aprendimos:
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Jest</li>
+              <li>REST API</li>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Bases de datos relacionales</li>
+              <li>SQL</li>
+            </ul>
+          </p>
+          <p>
+            Me apasiona aprender nuevas tecnologías e interiorizar sus procesos,
+            disfruto buscando distintas formas de hacerlas para encontrar la
+            manera más eficiente.
+          </p>
+          <p>
+            Soy confiable, sociable y alegre, me siento muy a gusto trabajando
+            en equipo ya que creo que la mejor forma de hallar soluciones es
+            analizar los problemas desde diversos ángulos y considerar las
+            experiencias previas de cada uno. Cuento con más de 10 años de
+            experiencia en atención al cliente de los cuales 7 fueron como
+            ejecutivo BackOffice, nuestra labor era primordialmente analizar
+            reclamos, encontrar y corregir fallas técnicas o errores de índole
+            comercial, Debíamos también asegurar la satisfacción del afectado,
+            esto me hace tener una mirada más amplia al enfrentar problemas ya
+            que tengo una mirada más integral del inconveniente y como éste
+            puede afectar de distintas maneras al usuario.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>Corporis voluptates tenetur laudantium.</p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <p>officia unde omnis</p>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
