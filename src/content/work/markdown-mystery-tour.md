@@ -1,19 +1,25 @@
 ---
-title: Markdown Mystery Tour
+title: StarWars Reading Blog
 publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /assets/proyect1.webp
+img_alt: Pagina de inicio de mi Blog de StarWars en modo claro
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Diseño de un simple blog con los personajes, planetas y vehículos de StarWars y sus respectivas imágenes.
+
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Desarrollo
+  - React
+  - Shadcn/UI
+  - Consumo de API
 ---
 
-## Level-two heading
+## Un simple Blog
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> Proyecto realizado para comprender como consumir datos desde una API
+
+Este es un proyecto realizado mientras cursaba en el Bootcamp de 4Geeks Academy, cuya finalidad era aprender a consumir datos desde una API y manejarlos hasta presentarlos de forma simple y efectiva al usuario.
+
+La información de cada personaje, vehículo o planeta del universo de StarWars fue sacada desde la API de <a href="https://swapi.tech/" target="_blank" rel="noopener noreferrer">SWAPI</a> y las imageners fueron encontradas en <a href="https://starwars-visualguide.com/#/" target="_blank" rel="noopener noreferrer">StarWars Visual Guide</a>
 
 Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
 
