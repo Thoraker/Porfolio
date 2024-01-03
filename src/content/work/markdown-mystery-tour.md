@@ -1,10 +1,10 @@
 ---
 title: StarWars Reading Blog
-publishDate: 2020-03-02 00:00:00
+publishDate: 2023-12-23 00:00:00
 img: /assets/proyect1.webp
 img_alt: Pagina de inicio de mi Blog de StarWars en modo claro
 description: |
-  Diseño de un simple blog con los personajes, planetas y vehículos de StarWars y sus respectivas imágenes.
+  Diseño de un simple blog con los personajes, planetas y vehículos de StarWars con sus respectivas imágenes.
 
 tags:
   - Desarrollo
@@ -19,23 +19,19 @@ tags:
 
 Este es un proyecto realizado mientras cursaba en el Bootcamp de 4Geeks Academy, cuya finalidad era aprender a consumir datos desde una API y manejarlos hasta presentarlos de forma simple y efectiva al usuario.
 
-La información de cada personaje, vehículo o planeta del universo de StarWars fue sacada desde la API de <a href="https://swapi.tech/" target="_blank" rel="noopener noreferrer">SWAPI</a> y las imageners fueron encontradas en <a href="https://starwars-visualguide.com/#/" target="_blank" rel="noopener noreferrer">StarWars Visual Guide</a>
+La información de cada personaje, vehículo o planeta del universo de StarWars fue sacada desde la API de <a href="https://swapi.tech/" target="_blank" rel="noopener noreferrer">SWAPI</a> y las imágenes fueron encontradas en <a href="https://starwars-visualguide.com/#/" target="_blank" rel="noopener noreferrer">StarWars Visual Guide</a>
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+### Versión 2.0 del Blog
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+Este proyecto fue revisado luego de completar el Bootcamp con el objetivo de mejorar la calidad del código considerando lo aprendido posterior a este, también tuvo como finalidad poner en practica tecnologías que fui aprendiendo luego de egresar.
 
-### Level-three heading
+Cabe destacar que aún no he implementado el Backend el cual estará conectada a una base de datos para llevar registro de usuarios y de sus tarjetas favoritas.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+#### Tecnologías Utilizadas
 
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+- HTML
+- CSS
+- Typescript
+- Shadcn
+- Tailwind
+- Django
