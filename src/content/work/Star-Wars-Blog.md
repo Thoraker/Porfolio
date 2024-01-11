@@ -1,7 +1,7 @@
 ---
 title: StarWars Reading Blog
-publishDate: 2023-12-23 00:00:00
-img: /assets/proyect1.webp
+publishDate: 2023-04-23 00:00:00
+img: /assets/project1.webp
 img_alt: Pagina de inicio de mi Blog de StarWars en modo claro
 description: |
   Diseño de un simple blog con los personajes, planetas y vehículos de StarWars con sus respectivas imágenes.
@@ -32,6 +32,7 @@ Cabe destacar que aún no he implementado el Backend el cual estará conectada a
 - HTML
 - CSS
 - Typescript
+- React
 - Shadcn
 - Tailwind
 - Django
